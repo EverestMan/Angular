@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Data Binding in Angular</title>
+<script src="angular.1.2.1.js"></script>
+</head>
+<body bgcolor="white">
+	<div>This is a plain HTML Page</div>
+	<br>Angular SPA Starting</br>
+	<div ng-app>
+		Enter First Name : <input type="text" ng-model="firstName" /><br>
+		Enter Last  Name :	<input type="text" ng-model="lastName" />:<input type="text" ng-model="lastName" /><br>
+		<br><br> 
+		Your Name is :  {{firstName}} {{lastName}} <input type="text" value = "{{firstName}} {{lastName}}"/>
+	</div>
+	Angular SPA Ending<br>
+</body>
+</html>
